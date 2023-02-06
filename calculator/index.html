@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCTI Calculator</title>
+</head>
+<body>
+    <!-- apps names:calculator
+    apps creator: Md Zahid Hossain
+    organization:Future Computer Training Institute -->
+    <div class="container">
+
+        <form action="">
+            <table>
+                <tr>
+                        <td colspan="4"><input type="text"  disabled name="display" id="display"></td>
+                    
+
+                </tr>
+                <tr>
+                    <td><input type="button" onclick="cal('7')"  value="7"></td>
+                    <td><input type="button" onclick="cal('8')" value="8"></td>
+                    <td> <input type="button" onclick="cal('9')" value="9"></td>
+                    <td> <input type="button" onclick="cal('/')" value="&#247"></td>
+               
+            </tr>
+            <tr>
+                <td><input type="button" onclick="cal('4')"  value="4"></td>
+                <td><input type="button" onclick="cal('5')" value="5"></td>
+                <td> <input type="button" onclick="cal('6')" value="6"></td>
+                <td> <input type="button" onclick="cal('*')" value="&#215"></td>
+            
+        </tr>
+        <tr>
+            <td><input type="button" onclick="cal('1')" value="1"></td>
+            <td><input type="button" onclick="cal('2')" value="2"></td>
+            <td> <input type="button" onclick="cal('3')" value="3"></td>
+            <td> <input type="button" onclick="cal('+')" value="+"></td>
+        
+    </tr>
+    <tr>
+        <td><input type="button" onclick="cal('0')"  value="0"></td>
+        <td><input type="button" onclick="cal('00')" value="00"></td>
+        <td> <input type="button" onclick="result()" value="="></td>
+        <td> <input type="button" onclick="cal('-')" value="-"></td>
+    
+</tr>
+<tr>
+    <td><input type="button" onclick="finsihData()"  value="C"></td>
+    <td><input type="button" onclick="sigledel()" value="Del"></td>
+    <td> <input type="button" onclick="cal('%')" value="%"></td>
+    <td> <input type="button" onclick="powerac()" value="x&sup2"></td>
+
+</tr>
+            </table>
+        </form>
+
+    </div>
+    <script src="apps.js"></script>
+</body>
+</html>
